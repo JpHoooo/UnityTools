@@ -1,0 +1,18 @@
+{
+
+	"name":"com.jphoooo.jptools",
+	"version": "1.0.0",
+	"displayName": "Jphoooo Tools",
+     "description": "This is my handy dev tools.",
+	"unity": "2020.2",
+ "keywords": [
+    "Tools",
+    "Extensions",
+    "Jphoooo"
+  ],
+  "author": {
+    "name": "Jphoooo",
+    "email": "jphoooooooo@gmail.com",
+    "url": "https://jphoooo.com"
+    }
+}
