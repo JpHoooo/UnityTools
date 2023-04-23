@@ -1,0 +1,17 @@
+{
+  "name": "com.jphoooo.unitytools",
+  "version": "1.0.0",
+  "displayName": "Jphoooo Unity Tools",
+  "description": "This is my handy dev tools.",
+  "unity": "2020.2",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "Jphoooo",
+    "email": "jphoooooooo@gmail.com",
+    "url": "https://jphoooo.github.io"
+  }
+}
