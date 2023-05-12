@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Jphoooo.Tools
+namespace Jphoooo.Tools.Runtimes
 {
     public static class SampleToolKit
     {
