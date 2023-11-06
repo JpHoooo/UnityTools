@@ -23,8 +23,18 @@ namespace Jphoooo.Tools{
         /// <param name="posB"></param>
         /// <returns></returns>
         public static float GetDegrees(Vector2 posA,Vector2 posB){
-
             return Mathf.Atan2(posA.y - posB.y, posA.x - posB.x) * Mathf.Rad2Deg;  
+        }
+
+        /// <summary>
+        /// 斐波纳契数列(黄金分割数列)
+        /// 1,1,2,3,5,8,13...
+        /// </summary>
+        /// <param name="index">索引</param>
+        /// <returns></returns>
+        public static uint Fibonacci(uint index){
+  
+            return index < 2? 1 :Fibonacci(index - 1) + Fibonacci(index - 2);
         }
 
         public static Vector2 SameVector2(float value){
