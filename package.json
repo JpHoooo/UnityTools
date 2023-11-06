@@ -1,8 +1,8 @@
 {
   "name": "com.jphoooo.tools",
   "version": "1.0.1",
-  "displayName": "Jphoooo Development Tools",
-  "description": "Tools for Unity Development",
+  "displayName": "Development Tools",
+  "description": "Unity development tools developed by Jphoooo",
   "unity": "2020.2",
   "keywords": [
     "MathfExtension",

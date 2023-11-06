@@ -1,5 +1,5 @@
 using UnityEngine;
-namespace Jphoooo.Tools.RichText{
+namespace Jphoooo.Tools{
     public static class RichText
     {
         public static string WithColor(this string str, Color col)

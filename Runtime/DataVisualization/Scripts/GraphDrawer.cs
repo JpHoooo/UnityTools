@@ -4,9 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
-using Jphoooo.Tools.MathfExtension;
 
-namespace Jphoooo.DataVisualization
+namespace Jphoooo.Tools
 {
     public class GraphDrawer : MonoBehaviour
     {
@@ -117,10 +116,11 @@ namespace Jphoooo.DataVisualization
                     rectTransform.anchorMax = Vector2.zero;
                     rectTransform.sizeDelta = new Vector2(dist, 5* dotConnectionSizeMultiplier);
 
-                    float angle = Mathf.Atan2(currentPosition.y - lastPosition.y, currentPosition.x - lastPosition.x);
-                    angle = Mathf.Rad2Deg * angle;
+                    // float angle = Mathf.Atan2(currentPosition.y - lastPosition.y, currentPosition.x - lastPosition.x);                    
+
+                    // angle = Mathf.Rad2Deg * angle;
                     rectTransform.anchoredPosition = lastPosition + (direc * dist * .5f);
-                    rectTransform.localEulerAngles = new Vector3(0, 0, angle);
+                    rectTransform.localEulerAngles = new Vector3(0, 0, MathfExtension.GetDegrees(currentPosition,lastPosition));
                 }
 
                 lastPosition = currentPosition;
