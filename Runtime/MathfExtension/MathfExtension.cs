@@ -26,6 +26,16 @@ namespace Jphoooo.Tools{
 
             return Mathf.Atan2(posA.y - posB.y, posA.x - posB.x) * Mathf.Rad2Deg;  
         }
+
+        public static Vector2 SameVector(float value){
+            return new Vector2(value, value);
+        }
+        public static Vector3 SameVector(float value){
+            return new Vector3(value, value, value);
+        }
+        public static Vector4 SameVector(float value){
+            return new Vector4(value, value,value,value);
+        }
     }
 }
 
