@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using Jphoooo.Tools.MathfExtension;
 
 namespace Jphoooo.DataVisualization
 {
@@ -240,7 +241,7 @@ namespace Jphoooo.DataVisualization
 
             for (int i = 0; i < templateYList.Count; i++)
             {
-                string str = (MathfExtension.Remap(i, 0, templateYList.Count - 1, yInfo.displayMinimum, yInfo.displayMaximum)).ToString("0.0");
+                string str = MathfExtension.Remap(i, 0, templateYList.Count - 1, yInfo.displayMinimum, yInfo.displayMaximum).ToString("0.0");
 
                 // Debug.Log($"str: {str}");
 

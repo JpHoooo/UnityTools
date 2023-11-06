@@ -1,0 +1,16 @@
+{
+    "name": "Jphoooo.Tools.DataVisualization",
+    "rootNamespace": "",
+    "references": [
+        "GUID:928121f827d1349648f7970a894b6c85"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
