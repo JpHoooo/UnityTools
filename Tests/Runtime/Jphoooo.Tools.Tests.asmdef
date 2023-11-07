@@ -1,0 +1,19 @@
+{
+    "name": "Jphoooo.Tools.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ab23a2b77e7a0492292b9f4a62ace847",
+        "GUID:0643ee067933a4deeacdafea8bee6240",
+        "GUID:928121f827d1349648f7970a894b6c85",
+        "GUID:6c2267ad787b5468ba97d129659f9de8"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
